@@ -48,10 +48,10 @@ jobs:
       with:
         # Artifact name
         name: # optional, default is artifact
-          kscan_darwin
+          SmallProxyPool
         # A file, directory or wildcard pattern that describes what to upload
         path: 
-          ./kscan_darwin
+          ./SmallProxyPool
         # The desired behavior if no files are found using the provided path.
 
   winbuild:
