@@ -102,7 +102,7 @@ func getSocks5Data() error {
 		r.Add("email", fofa_email)
 		r.Add("key", fofa_key)
 		r.Add("qbase64", rule)
-		r.Add("size", "2000")
+		r.Add("size", "10000")
 		req.URL.RawQuery = r.Encode()
 		req.Header.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36")
 		resp, err := (&http.Client{Transport: tr}).Do(req)
